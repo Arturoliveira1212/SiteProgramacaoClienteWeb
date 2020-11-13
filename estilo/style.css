@@ -1,0 +1,72 @@
+h1
+{
+    padding: 1% 0% 0% 10%;
+    font-size: 30px;
+}
+
+h2
+{
+    padding: 1% 0% 0% 5%;
+    font-size: 20px;
+}
+
+input
+{
+    width: 80%;
+    font-size: 15px;
+}
+
+.lista1
+{
+    float: left;
+    width: 25%;
+    height: 100%;
+}
+
+.lista2
+{
+    float: left;
+    width: 25%;
+    height: 100%;
+    
+}
+
+button
+{
+    font-size: 15px;
+}
+
+footer
+{
+    top: 96%;
+    position: absolute;
+    bottom: 0;
+    padding: 1% 0% 0% 2%;
+}
+
+form
+{
+    padding: 1% 0% 0% 10%;
+    font-size: 15px;
+}
+
+li
+{
+    padding: 1% 0% 0% 10%;
+    list-style-type: none;
+    font-size: 25px;
+}
+
+p
+{
+    padding: 1% 0% 0% 10%;
+    font-size: 15px;
+}
+
+a
+{
+    text-decoration: none;
+    color: black;
+    border: 3px solid black;
+    padding: 3px;
+}
