@@ -2,12 +2,14 @@ h1
 {
     padding: 1% 0% 0% 10%;
     font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 h2
 {
     padding: 1% 0% 0% 5%;
     font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 input
@@ -21,6 +23,7 @@ input
     float: left;
     width: 25%;
     height: 100%;
+    padding: 0% 0% 0% 10%;
 }
 
 .lista2
@@ -28,7 +31,11 @@ input
     float: left;
     width: 25%;
     height: 100%;
-    
+}
+
+body
+{
+    background-color: white;
 }
 
 button
@@ -38,10 +45,10 @@ button
 
 footer
 {
-    top: 96%;
+    top: 100%;
     position: absolute;
     bottom: 0;
-    padding: 1% 0% 0% 2%;
+    padding: 1% 0% 0% 10%;
 }
 
 form
@@ -69,4 +76,6 @@ a
     color: black;
     border: 3px solid black;
     padding: 3px;
+    background-color: palegreen;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
