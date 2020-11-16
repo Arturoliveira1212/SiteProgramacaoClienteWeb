@@ -43,14 +43,6 @@ button
     font-size: 15px;
 }
 
-footer
-{
-    top: 100%;
-    position: absolute;
-    bottom: 0;
-    padding: 1% 0% 0% 10%;
-}
-
 form
 {
     padding: 1% 0% 0% 10%;
