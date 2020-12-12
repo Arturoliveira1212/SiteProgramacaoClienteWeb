@@ -33,9 +33,10 @@ botao.onclick = function transformação()
 		}
 	}
 
-	limpar.onclick = function limpa()
-	{
-		document.getElementById('resultado').innerHTML = '';
-		document.getElementById('valor').value = '';
-	}
+}
+
+limpar.onclick = function limpa()
+{
+	document.getElementById('resultado').innerHTML = '';
+	document.getElementById('valor').value = '';
 }
