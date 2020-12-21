@@ -13,7 +13,7 @@ experiencia(anosEstudo);
 
 function experiencia(anos)
 {
-    if(anos>0 && anos<=1)
+    if(anos>=0 && anos<=1)
     {
         return "Iniciante";
     }
