@@ -34,7 +34,15 @@ function experiencia(anos)
 function retorno()
 {
     var n=document.getElementById("entrada").value;
-    var resultado=experiencia(n);
-    alert(resultado);
+    if(n<0)
+    {
+        alert("Entrada inválida.");
+    }
+    else
+    {
+        var resultado=experiencia(n);
+        alert(resultado);
+    }
+    
 }
 

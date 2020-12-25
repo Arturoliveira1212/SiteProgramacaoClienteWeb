@@ -7,13 +7,17 @@ function retorno()
 
     c1=parseFloat(c1);
     c2=parseFloat(c2);
-
-    c1=Math.pow(c1,2);
-    c2=Math.pow(c2,2);
-
-    var resultado=calcula_hipotenusa(c1,c2);
-    alert("O valor da hipotenusa é " + resultado);
-
+    if(c1<=0 || c2<=0)
+    {
+        alert("Entrada inválida.");
+    }
+    else
+    {
+        c1=Math.pow(c1,2);
+        c2=Math.pow(c2,2);
+        var resultado=calcula_hipotenusa(c1,c2);
+        alert("O valor da hipotenusa é " + resultado);
+    }
     
 }
 

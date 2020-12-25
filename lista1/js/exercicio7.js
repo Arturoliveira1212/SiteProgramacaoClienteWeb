@@ -11,9 +11,16 @@ function retorno()
     total_vendas=parseFloat(total_vendas);
     salario_fixo=parseFloat(salario_fixo);
     valor_por_carro=parseFloat(valor_por_carro);
-
-    var resultado=calcula_salario(numero_carros,total_vendas,salario_fixo,valor_por_carro);
-    alert("O salário final é " + resultado);
+    if(numero_carros<=0 || total_vendas<=0 || salario_fixo<=0 || valor_por_carro<=0)
+    {
+        alert("Entrada inválida.");
+    }
+    else
+    {
+        var resultado=calcula_salario(numero_carros,total_vendas,salario_fixo,valor_por_carro);
+        alert("O salário final é " + resultado);
+    }
+    
 }
 
 function calcula_salario(numero_carros,total_vendas,salario_fixo,valor_por_carro)

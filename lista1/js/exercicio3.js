@@ -13,9 +13,14 @@ function verifica_primo(n)
 {
     var resultado;
     var x=0;
+    if(n<1)
+    {
+        resultado = "Não existe número primo negativo.";
+    }
+
     if(n==1)
     {
-        resultado="O número " + n + " não é primo";
+        resultado="O número " + n + " não é primo.";
     }
     
     if(n>0)
@@ -30,11 +35,11 @@ function verifica_primo(n)
 
         if(x==2)
         {
-            resultado="O número " + n + " é primo";
+            resultado="O número " + n + " é primo.";
         }
         else if(x>2)
         {
-            resultado="O número " + n + " não é primo";
+            resultado="O número " + n + " não é primo.";
         }
     }
     return resultado;

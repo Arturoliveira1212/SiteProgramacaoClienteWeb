@@ -5,9 +5,15 @@ function retorno()
     var quantidade=document.getElementById("entrada").value;
 
     quantidade=parseInt(quantidade);
-
-    var resultado=calcula_maca(quantidade);
-    alert("O preço total é " + resultado + " reais");
+    if(quantidade<=0)
+    {
+        alert("Entrada inválida.");
+    }
+    else
+    {
+        var resultado=calcula_maca(quantidade);
+        alert("O preço total é " + resultado + " reais");
+    }
 }
 
 function calcula_maca(quantidade)

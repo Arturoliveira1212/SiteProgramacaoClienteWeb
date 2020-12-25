@@ -1,26 +1,149 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>Artur Alves de Oliveira</title>
-        <meta charset="utf8">
-        <link rel="stylesheet" type="text/css" href="./estilo/style.css" media="screen"/>
-    </head>
+<!doctype html>
+<html lang="pt" class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>WebThemez - Single page website</title>
+    <meta name="description" content="">
+    <meta name="author" content="WebThemez">
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/isotope.css" media="screen" />
+    <link rel="stylesheet" href="js/fancybox/jquery.fancybox.css" type="text/css" media="screen" />
+    <link href="css/animate.css" rel="stylesheet" media="screen">
+    <link href="js/owl-carousel/owl.carousel.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css" />
+    <link href="font/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="../css/estilo.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&display=swap" rel="stylesheet">
+  </head>
 
-    <body>
+  <body>
+
+    <!-- ######################################################################################## -->
+
+    <header class="header" style="padding: 1.5%;">
+      <div class="container">
+        <nav class="navbar navbar-inverse" role="navigation">
+          <div class="navbar-header">
+            <button type="button" id="nav-toggle" class="navbar-toggle" data-toggle="collapse" data-target="#main-nav"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+            <a href="#" class="navbar-brand scroll-top logo  animated bounceInLeft"><b><i>Página Inicial</i></b></a> 
+          </div>
+          <div id="main-nav" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav" id="mainNav">
+              <li class="active" id="firstLink"><a href="#home" class="scroll-link">Home</a></li>
+              <li><a href="#services" class="scroll-link">JavaScript</a></li>
+              <li><a href="#qui" class="scroll-link">Química</a></li>
+              <li><a href="#aboutUs" class="scroll-link">Sobre</a></li>
+            </ul>
+          </div>
+          <!--/.navbar-collapse--> 
+        </nav>
+        <!--/.navbar--> 
+      </div>
+      <!--/.container--> 
+    </header>
+    <!--/.header-->
+
+    <!-- ###################################################################################### -->
+
     
-        <h1>Javascript</h1>
-        <ul>
-            <li><a href="./paginas/1tri.html">1° Trimestre</a></li>
-            <li><a href="./paginas/2tri.html">2° Trimestre</a></li>
-            <li><a href="./paginas/3tri.html">3° Trimestre</a></li>     
-        </ul>
-        <h1>Química</h1> 
-        <ul>
-            <li><a href="./paginas/1qui.html">1° Trimestre</a></li>
-            <li><a href="2qui.html">2° Trimestre</a></li>
-            <li><a href="3qui.html">3° Trimestre</a></li><br><br>
-            <li><a href="https://rafaelescalfoni.github.io/prog-clientes-web-2020_1.html">Voltar</a></li>
-        </ul>
+    <br><br>
+    <div class="page-section colord" id="home">
+      <div class="container">
+        <h1>Conteúdos</h1><br>
+      </div>
+    </div>
     
-    </body>
+    <section id="services">
+      <div class="container">  
+
+          <div class="col-md-6 col-sm-6">
+            <h1>JavaScript</h1><br>
+            <p>JavaScript é uma linguagem de programação baseada em scripts e padronizada pela ECMA International.</p>
+            <p>Foi criada por Brendan Eich e surgiu em 1995 como linguagem de script client-side de páginas web. É uma linguagem dinâmica, orientada a objetos e criada com sintaxe similiar à linguagem C.</p>
+            <br>
+            <a href="./paginas/1tri.html" class="btn">1° Trimestre</a>
+            <a href="#" class="btn">2° Trimestre</a>
+            <a href="#" class="btn">3° Trimestre</a>
+          </div>
+          
+          <div class="col-md-6 col-sm-6">
+            <img src="./images/dr.jpeg" style="padding: 5% 2% 25% 2%; width: 100%;">
+          </div>
+
+          <div id="qui" class="col-md-6 col-sm-6" style="float: right;">
+            <h1>Química</h1><br>
+            <p>A Química é um ramo das Ciências da Natureza que estuda a matéria, suas propriedades, constituição, transformações e a energia envolvida nesses processos</p>
+            <p>As principais áreas da física são: Química Geral, Físico-Química, Química Inorgânica, Química Orgânica, Química nuclear e Química Ambiental.</p>
+            <br>
+            <a href="./paginas/1qui.html" class="btn">1° Trimestre</a>
+            <a href="#" class="btn">2° Trimestre</a>
+            <a href="#" class="btn">3° Trimestre</a>
+          </div>
+          
+          <div class="col-md-6 col-sm-6" style="float: left;">
+            <img src="./images/b.jpg" style="padding: 10% 2% 5% 0; width: 100%;">
+          </div>
+      </div>
+      <!--/.container-->
+    </section>
+    <br><br>
+
+
+
+    <!-- ########################################################################################## -->
+    
+    <div class="page-section colord" >
+      <div class="container">
+        <h1>Sobre o Criador</h1><br>
+      </div>
+    </div>
+    
+  
+    <section id="aboutUs">
+      <div class="container">
+        <div class="row feature design">
+          <div class="area1 columns right">
+            <h1>Artur Alves de Oliveira</h1>
+            <p>Nasceu em 28/11/2003 na cidade de Duas Barras, reside atualmente na cidade de Monnerat.</p>
+            <p>Estudante no CEFET-RJ/Uned Nova Friburgo, cursando o 2° ano do Ensino Médio integrado ao curso técnico de Informática.</p>
+            <p>Pretende cursar Sistemas de Informação no CEFET-RJ/Uned Nova Friburgo.</p>
+          </div>
+          <div class="area2 columns feature-media left"> <img src="images/tu.jpg" style="padding: 0 0 0 5%;"> </div>
+        </div>
+      </div>
+    </section>
+    
+
+    <!-- ######################################################################################### -->
+
+    
+    <section class="copyright">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 text-center"> Copyright 2014 | All Rights Reserved -- Template by <a href="http://webThemez.com">WebThemez.com</a> </div>
+        </div>
+        <!-- / .row --> 
+      </div>
+    </section>
+    <a href="#top" class="topHome"><i class="fa fa-chevron-up fa-2x"></i></a> 
+
+    <!-- ########################################################################################### -->
+
+    <script src="js/modernizr-latest.js"></script> 
+    <script src="js/jquery-1.8.2.min.js" type="text/javascript"></script> 
+    <script src="js/bootstrap.min.js" type="text/javascript"></script> 
+    <script src="js/jquery.isotope.min.js" type="text/javascript"></script> 
+    <script src="js/fancybox/jquery.fancybox.pack.js" type="text/javascript"></script> 
+    <script src="js/jquery.nav.js" type="text/javascript"></script> 
+    <script src="js/jquery.fittext.js"></script> 
+    <script src="js/waypoints.js"></script> 
+    <script src="js/custom.js" type="text/javascript"></script> 
+    <script src="js/owl-carousel/owl.carousel.js"></script>
+
+    <!-- ########################################################################################## -->
+
+  </body>
 </html>

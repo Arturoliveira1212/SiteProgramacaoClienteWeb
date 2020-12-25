@@ -15,8 +15,15 @@ function retorno()
     n2=parseFloat(n2);
     n3=parseFloat(n3);
 
-    var resultado=media(n1,n2,n3);
-    alert("A média final do aluno é " + resultado);
+    if(n1<=0 || n2<=0 || n3<=0)
+    {
+        alert("Entrada inválida.");
+    }
+    else 
+    {
+        var resultado=media(n1,n2,n3);
+        alert("A média final do aluno é " + resultado);
+    }
 }
 
 function media(n1,n2,n3)

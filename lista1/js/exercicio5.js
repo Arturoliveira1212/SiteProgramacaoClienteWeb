@@ -7,9 +7,16 @@ function retorno()
 
     salario=parseFloat(salario);
     reajuste=parseFloat(reajuste);
-
-    var resultado=calcula_reajuste(salario,reajuste);
-    alert("O seu novo salário é " + resultado);
+    if(salario<=0 || reajuste<=0)
+    {
+        alert("Entrada inválida.");
+    }
+    else
+    {
+        var resultado=calcula_reajuste(salario,reajuste);
+        alert("O seu novo salário é " + resultado + ".");
+    }
+    
 }
 
 function calcula_reajuste(salario,reajuste)
