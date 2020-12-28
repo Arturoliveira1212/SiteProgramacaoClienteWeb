@@ -35,6 +35,7 @@ botao.onclick = function retorna()
             document.getElementById("h2(1)").innerHTML = inputth2;
             document.getElementById("o2(1)").innerHTML = x1;
             document.getElementById("h2o(1)").innerHTML = massa;
+            document.getElementById("tit").innerHTML = "Reação final:";
 
         }
         else if(x1>inputto2)
@@ -42,7 +43,8 @@ botao.onclick = function retorna()
             var excesso = "2g H2 - 16g O2 <br> Xg O2 -" + inputto2 + "g O2 <br><br> 16 . X = " + y +"<br> X = " + y1 + "<br><br>Para " + inputto2 + "g O2 precisa-se de " + y1 + "g H2<br> " + inputth2 +" - " + y1 + " = " + r2 + "<br><br>H2 está " + r2 + " g em excesso<br> O agente limitante é o O2 <br> A massa de H2O formada é de " + massa1 + "g";
             document.getElementById("h2(1)").innerHTML = y1;
             document.getElementById("o2(1)").innerHTML = inputto2;
-            document.getElementById("h2o(1)").innerHTML = massa;
+            document.getElementById("h2o(1)").innerHTML = massa1;
+            document.getElementById("tit").innerHTML = "Reação final:";
         }
         else if(x1 == inputto2)
         {
@@ -61,4 +63,5 @@ limpar.onclick = function limpa()
     document.getElementById("h2(1)").innerHTML = '2';
     document.getElementById("o2(1)").innerHTML = "16";
     document.getElementById("h2o(1)").innerHTML = "18";
+    document.getElementById("tit").innerHTML = "Reação balanceada:";
 }
