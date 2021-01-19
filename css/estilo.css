@@ -13,6 +13,13 @@ p
     text-align: justify;
 }
 
+.lixeira
+{
+    height: 50%;
+    width: 5%;
+    
+}
+
 .page-section h1
 {
     font-family: 'Oswald', sans-serif;
@@ -20,9 +27,18 @@ p
     color: white;   
 }
 
-input
+input, textarea, select
 {
-    width: 50%;
+    width: 90%;
+}
+
+tr, th
+{   
+    color: black;
+    background-color: gainsboro;
+    border: black 2px solid;
+    text-align: center;
+    
 }
 
 .lista

@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="pt" class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>JavaScript</title>
+    <meta name="description" content="">
+    <meta name="author" content="WebThemez">
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="../css/isotope.css" media="screen" />
+    <link rel="stylesheet" href="../js/fancybox/jquery.fancybox.css" type="text/css" media="screen" />
+    <link href="../css/animate.css" rel="stylesheet" media="screen">
+    <link href="../js/owl-carousel/owl.carousel.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/styles.css" />
+    <link href="../font/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/estilo.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./js/Cadastro_livros.js"></script>
+  </head>
+
+  <body>
+
+    <!-- ######################################################################################## -->
+
+    <header class="header" style="padding: 1.5%;">
+      <div class="container">
+        <nav class="navbar navbar-inverse" role="navigation">
+            <div class="navbar-header">
+                <button type="button" id="nav-toggle" class="navbar-toggle" data-toggle="collapse" data-target="#main-nav"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+                <a href="#" class="navbar-brand scroll-top logo  animated bounceInLeft"><b><i>JavaScript - 2° Trimestre</i></b></a> 
+            </div>
+            <div id="main-nav" class="collapse navbar-collapse">
+                <ul class="nav navbar-nav" id="mainNav">
+                <li id="firstLink"><a href="../index.html" class="scroll-link">Página Inicial</a></li>
+                <li><a href="../paginas/2qui.html" class="scroll-link">Química</a></li>
+                </ul>
+            </div>
+          <!--/.navbar-collapse--> 
+        </nav>
+        <!--/.navbar--> 
+      </div>
+      <!--/.container--> 
+    </header>
+    <!--/.header-->
+
+    <!-- ###################################################################################### -->
+
+    
+    <br><br><br><br>
+
+    <section id="services">
+        <div class="container">
+            <div class="col-md-6 col-sm-6">
+                <fieldset>
+                    <h1>Cadastro de livros</h1>
+                    <input type="text" id="titulo" placeholder="Título"><br><br>
+                    <textarea id="descricao" placeholder="Descrição"></textarea><br><br>
+                    <select id="genero">
+                        <option value="Romance">Romance</option>
+                        <option value="Drama">Drama</option>
+                        <option value="Terror">Terror</option>
+                        <option value="Ficção">Ficção</option>
+                        <option value="Técnico">Técnico</option>
+                    </select><br><br>
+                    <input type="text" list="autores" id="autor" placeholder="Autor"><br><br>
+                    <datalist id="autores">
+                        <option></option>
+                    </datalist>
+                    <button id="add_acervo" class="btn">Adicionar a lista</button>
+                    <a href="../paginas/2tri.html" class="btn">Voltar</a>
+                </fieldset>
+            </div>
+  
+            <div class="col-md-6 col-sm-6">
+                <h1>Catálogo dos livros</h1>
+        
+                <table width="80%" border="2" id="acervo">
+                    <tr>
+                        <th>Título</th>
+                        <th>Descrição</th>
+                        <th>Gênero</th>
+                        <th>Autor</th>
+                        <th></th>
+                    </tr>
+                </table><br>
+            
+                <form action="https://rafaelescalfoni.net/web/livros.php" 
+                    method="post">
+                    <input type="hidden" name="acervo_post">
+                    <input type="submit" id="salvar" class="btn" value="Salvar no BD">
+                </form>
+            </div>
+        </div>
+        <!--/.container--> 
+      </section>
+    <br><br><br><br><br>
+    
+
+    <!-- ######################################################################################### -->
+
+    
+    <section class="copyright">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 text-center"> Copyright 2014 | All Rights Reserved -- Template by <a href="http://webThemez.com">WebThemez.com</a> </div>
+        </div>
+        <!-- / .row --> 
+      </div>
+    </section>
+    <a href="#top" class="topHome"><i class="fa fa-chevron-up fa-2x"></i></a> 
+
+    <!-- ########################################################################################### -->
+
+    <script src="../js/modernizr-latest.js"></script> 
+    <script src="../js/jquery-1.8.2.min.js" type="text/javascript"></script> 
+    <script src="../js/bootstrap.min.js" type="text/javascript"></script> 
+    <script src="../js/jquery.isotope.min.js" type="text/javascript"></script> 
+    <script src="../js/fancybox/jquery.fancybox.pack.js" type="text/javascript"></script> 
+    <script src="../js/jquery.nav.js" type="text/javascript"></script> 
+    <script src="../js/jquery.fittext.js"></script> 
+    <script src="../js/waypoints.js"></script> 
+    <script src="../js/custom.js" type="text/javascript"></script> 
+    <script src="../js/owl-carousel/owl.carousel.js"></script>
+
+    <!-- ########################################################################################## -->
+
+  </body>
+</html>
