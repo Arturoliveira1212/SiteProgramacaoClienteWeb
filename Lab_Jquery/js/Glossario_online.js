@@ -27,13 +27,17 @@ $(function(){
 
     $("#link").click(function(){
         $(this).text("Termos cadastrados: clique na definição desejada.");
+        $(this).remove();
         for(i=0;i<glossario.length;i++)
         {
+            let obj_link = $("<a>").attr("href", "#");
             let obj_lista1 = $("<li>");
             let termo1 = glossario[i].termo;
             obj_lista1.append(termo1);
+            obj_link.append(obj_lista1);
+     
             let obj_ul = $("#lista");
-            obj_ul.append(obj_lista1);
+            obj_ul.append(obj_link);
         }
     })
 
