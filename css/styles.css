@@ -200,7 +200,15 @@ a:hover {
 .copyright {
 	color: #6D6D6D;
 	background: #161616;
-	padding: 20px 0;
+	padding: 20px 0;	
+}
+.copyright_pouco_conteudo {
+	color: #6D6D6D;
+	background: #161616;
+	padding: 20px 0;	
+	width: 100%;
+	position: absolute;
+	bottom: 0;
 }
 #top {
 	position: relative;

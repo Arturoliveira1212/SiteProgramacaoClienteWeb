@@ -42,26 +42,21 @@
         <br><br>
         <section id="aboutUs">
             <div class="container">
-                <div><br><br>
-                    <h1>Primeiro escolha a correlação que deseja, depois escolha o primeiro e o segundo reagente. Lembrando que você deve digitar na caixa a quantidade do primeiro reagente na unidade da correlação.</h1>
-                    <h1>Reações:</h1>
-                    <ul class="lista">
-                        <li><span id="h2(1)">44,8</span>L H2 + <span id="o2(1)">22,4</span>L O2 => <span id="h2o(1)">67,2</span>L H2O</li>
-                        <li><span id="h2">44,8</span>L H2 + <span id="o2">22,4</span>L O2 => <span id="h2o">18</span>g H2O</li>
-                    </ul>
+                <div class="col-md-6 col-sm-6"><br><br>
+                    <h1>Escolha a correlação, o primeiro e o segundo reagente. Depois digite na caixa a quantidade do primeiro reagente na unidade da correlação.</h1>
                     <form>
                         <br><label>Correlação</label>
                         <select id="corr">
                             <option value="1">Volume H2+Volume O2</option>
                             <option value="2">Massa H2O=Volume O2</option>
                         </select>
-                        <br><label>Primeiro reagente</label>
+                        <br><br><label>Primeiro reagente</label>
                         <select id="reagente1">
                             <option value="1">H2</option>
                             <option value="2">O2</option>
                             <option value="3">H2O</option>
                         </select>
-                        <br><label>Segundo reagente</label>
+                        <br><br><label>Segundo reagente</label>
                         <select id="reagente2">
                             <option value="1">H2</option>
                             <option value="2">O2</option>
@@ -71,12 +66,33 @@
                         <br><br><button type="button" id="botao" class="btn">Calcular</button>
                         <button type="button" id="limpar" class="btn">Limpar</button>
                         <a href="../paginas/1qui.html" class="btn">Voltar</a>
-                        <p id="resultado"></p>
-                    </form>      
+                    </form>
+                </div>
+                <div class="col-md-6 col-sm-6" style="padding-left: 5%;"><br><br>
+                    <h1>Reações:</h1>
+                    <ul class="lista">
+                        <li><span id="h2(1)">44,8</span>L H2 + <span id="o2(1)">22,4</span>L O2 => <span id="h2o(1)">67,2</span>L H2O</li>
+                        <li><span id="h2">44,8</span>L H2 + <span id="o2">22,4</span>L O2 => <span id="h2o">18</span>g H2O</li>
+                    </ul>    <br>
+                    <h1 id="calc"></h1>
+                    <p id="resultado"></p>
+                    <p id="result"></p>
                 </div>
             </div>
+            
         </section>
-        
+      
+ <!-- ########################################################################################-->
+
+        <section class="copyright">
+            <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center"> Copyright 2014 | All Rights Reserved -- Template by <a href="http://webThemez.com">WebThemez.com</a> </div>
+            </div>
+            <!-- / .row --> 
+            </div>
+        </section>
+        <a href="#top" class="topHome"><i class="fa fa-chevron-up fa-2x"></i></a> 
     
  <!-- ########################################################################################### -->
     

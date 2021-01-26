@@ -11,8 +11,11 @@ botao.onclick = function retorna()
     }
     else
     {
+        document.getElementById('calc').innerHTML = "Cálculos";
         inputth2 = parseFloat(inputth2);
         inputto2 = parseFloat(inputto2);
+        document.getElementById('h2').value = "";
+        document.getElementById('o2').value = "";
         var x = 16*inputth2;
         var x1 = x/2;
         var y = 2*inputto2;
@@ -31,7 +34,7 @@ botao.onclick = function retorna()
         massa1 = massa1.toFixed(2);
         if(x1<inputto2)
         {
-            var excesso = "2g H2 - 16g O2 <br>" + inputth2 + "g H2 - Xg O2 <br><br> 2 . X = " + x +"<br> X = " + x1 + "<br><br>Para " + inputth2 + "g H2 precisa-se de " + x1 + "g O2<br> " + inputto2 +" - " + x1 + " = " + r + "<br><br>O2 está " + r + " g em excesso<br> O agente limitante é o H2 <br> A massa de H2O formada é de " + massa + "g";
+            var excesso = "2g H2 - 16g O2 <br>" + inputth2 + "g H2 - Xg O2 <br><br> 2 . X = " + x +"<br> X = " + x1 + "<br>Para " + inputth2 + "g H2 precisa-se de " + x1 + "g O2<br> " + inputto2 +" - " + x1 + " = " + r + "<br><br>Dado " + inputth2 + " g H2 e " + inputto2 + " g O2: <br> O2 está " + r + " g em excesso<br> O agente limitante é o H2 <br> A massa de H2O formada é de " + massa + "g";
             document.getElementById("h2(1)").innerHTML = inputth2;
             document.getElementById("o2(1)").innerHTML = x1;
             document.getElementById("h2o(1)").innerHTML = massa;
@@ -40,7 +43,7 @@ botao.onclick = function retorna()
         }
         else if(x1>inputto2)
         {
-            var excesso = "2g H2 - 16g O2 <br> Xg O2 -" + inputto2 + "g O2 <br><br> 16 . X = " + y +"<br> X = " + y1 + "<br><br>Para " + inputto2 + "g O2 precisa-se de " + y1 + "g H2<br> " + inputth2 +" - " + y1 + " = " + r2 + "<br><br>H2 está " + r2 + " g em excesso<br> O agente limitante é o O2 <br> A massa de H2O formada é de " + massa1 + "g";
+            var excesso = "2g H2 - 16g O2 <br> Xg O2 -" + inputto2 + "g O2 <br><br> 16 . X = " + y +"<br> X = " + y1 + "<br>Para " + inputto2 + "g O2 precisa-se de " + y1 + "g H2<br> " + inputth2 +" - " + y1 + " = " + r2 + "<br><br> Dado " + inputth2 + " g H2 e " + inputto2 + " g O2: <br> H2 está " + r2 + " g em excesso<br> O agente limitante é o O2 <br> A massa de H2O formada é de " + massa1 + "g";
             document.getElementById("h2(1)").innerHTML = y1;
             document.getElementById("o2(1)").innerHTML = inputto2;
             document.getElementById("h2o(1)").innerHTML = massa1;
@@ -64,4 +67,5 @@ limpar.onclick = function limpa()
     document.getElementById("o2(1)").innerHTML = "16";
     document.getElementById("h2o(1)").innerHTML = "18";
     document.getElementById("tit").innerHTML = "Reação balanceada:";
+    document.getElementById('calc').innerHTML = '';
 }
