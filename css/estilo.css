@@ -13,7 +13,11 @@ p
     text-align: justify;
 }
 
-
+.negrito
+{
+    font-weight: bolder;
+    color: blue;
+}
 
 .page-section h1
 {

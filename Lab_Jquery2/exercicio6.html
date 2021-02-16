@@ -13,10 +13,11 @@
     <link href="../js/owl-carousel/owl.carousel.css" rel="stylesheet">
     <link rel="stylesheet" href="../css/styles.css" />
     <link href="../font/css/font-awesome.min.css" rel="stylesheet">
-    <script src="./js/exercicio7.js"></script> <!-- SCRIPT DO EXERCÍCIO -->
     <link rel="stylesheet" href="../css/estilo.css"/>
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&display=swap" rel="stylesheet">
-    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./js/exercicio6.js"></script> <!-- SCRIPT DO EXERCÍCIO -->
+
     <body>
         
      <!-- ######################################################################################## -->
@@ -26,13 +27,13 @@
             <nav class="navbar navbar-inverse" role="navigation">
                 <div class="navbar-header">
                     <button type="button" id="nav-toggle" class="navbar-toggle" data-toggle="collapse" data-target="#main-nav"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-                    <a href="#" class="navbar-brand scroll-top logo  animated bounceInLeft"><b><i>JavaScript - 1° Trimestre</i></b></a> 
+                    <a href="#" class="navbar-brand scroll-top logo  animated bounceInLeft"><b><i>JavaScript - 2° Trimestre</i></b></a> 
                 </div>
                 <div id="main-nav" class="collapse navbar-collapse">
                     <ul class="nav navbar-nav" id="mainNav">
-                        <li id="firstLink"><a href="../index.html" class="scroll-link">Voltar para a página inicial</a></li>
-                        <!-- <li><a href="../paginas/1tri.html" class="scroll-link">JavaScript</a></li>
-                        <li><a href="../paginas/1qui.html" class="scroll-link">Química</a></li> -->
+                    <li id="firstLink"><a href="../index.html" class="scroll-link">Voltar para a página inicial</a></li>
+                    <!-- <li><a href="../paginas/1tri.html" class="scroll-link">JavaScript</a></li>
+                    <li><a href="../paginas/1qui.html" class="scroll-link">Química</a></li> -->
                     </ul>
                 </div>
             </nav> 
@@ -40,28 +41,25 @@
         </header>
   
     <!-- ###################################################################################### -->
-        
         <br><br>
         <section id="aboutUs">
             <div class="container">
                 <div><br><br>
-                    <h1>7 - Uma revendedora de carros usados paga a seus funcionários vendedores um salário fixo por mês, mais uma comissão também fixa para cada carro vendido e mais 5% do valor das vendas por ele efetuadas. Escrever um algoritmo que leia o número de carros por ele vendidos, o valor total de suas vendas, o salário fixo e o valor que ele recebe por carro vendido. Calcule e escreva o salário final do vendedor. Calcular o sálario dos vendedores de carros:</h1><br>
-                    <form>
-                        <input type="number" id="entrada1" placeholder="Carros vendidos"><br>
-                        <input type="number" id="entrada2" placeholder="Total de vendas"><br>
-                        <input type="number" id="entrada3" placeholder="Salário fixo"><br>
-                        <input type="number" id="entrada4" placeholder="Valor por carro vendido"><br><br>
-                        <button onclick="retorno();" class="btn">Calcular</button>
-                        <a href="../paginas/1tri.html" class="btn">Voltar</a>
-                    </form>
+                    <h1>6 - Faça um programa que leia uma data de nascimento e retorne quantos dias de vida a pessoa tem:</h1><br>
+                    <input type="date" id="entrada" placeholder="Digite uma data:"><br><br>
+                    <button id="botao" class="btn">Executar</button>
+                    <button id="limpar" class="btn">Limpar</button>
+                    <a href="../paginas/2tri.html" class="btn">Voltar</a>
+                    <p id="resultado"></p>
                     <br>
                 </div>
             </div>
         </section>
-
-<!-- ######################################################################################-->
+        
     
-        <section class="copyright">
+ <!-- ######################################################################################-->
+    
+        <section class="copyright_pouco_conteudo">
             <div class="container">
             <div class="row">
                 <div class="col-sm-12 text-center"> Copyright 2014 | All Rights Reserved -- Template by <a href="http://webThemez.com">WebThemez.com</a> / Modificado por Artur Alves de Oliveira.</div>
@@ -69,10 +67,9 @@
             <!-- / .row --> 
             </div>
         </section>
-        <a href="#top" class="topHome"><i class="fa fa-chevron-up fa-2x"></i></a>
-    
- <!-- ########################################################################################### -->
-    
+        <a href="#top" class="topHome"><i class="fa fa-chevron-up fa-2x"></i></a> 
+
+  <!-- ##################################################################################### -->
         <script src="../js/modernizr-latest.js"></script> 
         <script src="../js/jquery-1.8.2.min.js" type="text/javascript"></script> 
         <script src="../js/bootstrap.min.js" type="text/javascript"></script> 
