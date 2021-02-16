@@ -1,6 +1,6 @@
 $(function(){
     
-    $("#entrada").keyup(function() {
+    $("#entrada").keyup(function(){
         const regex_minusculas = /[a-z]/;
         const regex_maiusculas = /[A-Z]/;
         const regex_numeros = /[1-9]/;
@@ -21,5 +21,20 @@ $(function(){
         {
             $("#resultado").text("Senha forte");
         }
-      })
+    })
+
+    $("#olho").on('click', function(){
+        let tipe = $("#entrada").attr("type");
+        console.log(tipe);
+        if(tipe == "password")
+        {
+            $("#entrada").prop('type',"text");
+            $(this).text("Ocultar");
+        }
+        else
+        {
+            $("#entrada").prop("type", "password");
+            $(this).text("Mostrar");
+        }
+    })
 });

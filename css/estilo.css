@@ -5,6 +5,13 @@ h1
     text-align: justify;
 }
 
+#olho
+{
+    margin-left: auto;
+    display: inline-block;
+    width: 10%;
+}
+
 p
 {
     padding: 1% 0 0 1%; 
