@@ -12,14 +12,20 @@ $(function(){
         if(regex_minusculas.test($("#entrada").val()) || regex_maiusculas.test($("#entrada").val()))
         {
             $("#resultado").text("Senha fraca");
+            $("#resultado").css("color", "red");
+            $("#resultado").css("font-weight" , "bolder");
         }
         if(regex_minusculas.test($("#entrada").val()) && regex_maiusculas.test($("#entrada").val()) && regex_numeros.test($("#entrada").val()))
         {
             $("#resultado").text("Senha moderada");
+            $("#resultado").css("color", "orange");
+            $("#resultado").css("font-weight" , "bolder");
         }
         if(regex_minusculas.test($("#entrada").val()) && regex_maiusculas.test($("#entrada").val()) && regex_numeros.test($("#entrada").val()) && regex_char_especiais.test($("#entrada").val()))
         {
             $("#resultado").text("Senha forte");
+            $("#resultado").css("color", "green");
+            $("#resultado").css("font-weight" , "bolder");
         }
     })
 

@@ -12,6 +12,8 @@ $(function(){
         else
         {
             texto = texto.toLocaleLowerCase();
+            procurar = procurar.toLocaleLowerCase();
+            substituir = substituir.toLocaleLowerCase();
             let array_texto = texto.split(' ');
             for(i=0;i<array_texto.length;i++)
             {
