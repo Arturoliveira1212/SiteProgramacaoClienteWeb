@@ -116,15 +116,15 @@ $(function(){
             let x;
             if(item.rating == 5)
             {
-                x = "<p><img src='../images/imagem1.png' style='width:30%;'> " + item.descricao ;
+                x = "<p><img src='../images/Imagem1.png' style='width:30%;'> " + item.descricao ;
             }
             if(item.rating == 4)
             {
-                x = "<p> <img src='../images/imagem2.png' style='width:30%;'> " + item.descricao;
+                x = "<p> <img src='../images/Imagem2.png' style='width:30%;'> " + item.descricao;
             }
             if(item.rating == 3)
             {
-                x = "<p> <img src='../images/imagem3.png' style='width:30%;'> " + item.descricao;
+                x = "<p> <img src='../images/Imagem3.png' style='width:30%;'> " + item.descricao;
             }
             if(item.rating == 2)
             {
