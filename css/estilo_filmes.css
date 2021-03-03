@@ -1,0 +1,81 @@
+.secao
+{
+    padding: 2%;
+    height: 900px;
+    background-color: white;
+    /* margin-bottom: 2%; */
+    border: solid 15px #008E4D;
+}
+body
+{
+    background-color: #008E4D;
+}
+
+.secao p 
+{
+    font-size: 110%;
+    color: black;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    /* font-family: 'Oswald', sans-serif;
+     */
+     font-family: 'Open Sans', sans-serif;
+     text-align: justify;
+}
+
+/* .catalogo
+{
+    background-color: gray;
+} */
+
+.desc
+{
+    float: left;
+    text-align: justify;
+}
+
+.genero
+{
+    /* float: left;
+    width: 45%; */
+    text-align: justify;
+    float: right;
+    width: 40%;
+}
+
+.tit
+{
+    /* float: right;
+    width: 45%; */
+    float: left;
+    width: 60%;
+}
+
+.titulo
+{
+    float: left;
+    width: 80%;
+}
+
+.opniao
+{
+    width: 100%;
+    float: left;
+}
+
+.opniao p 
+{
+    font-family: 'Kalam', cursive;
+    color: black;
+}
+
+.elenco
+{
+    float: right;
+    width: 40%;
+}
+
+.image
+{
+    width: 60%;
+    float: left;
+}

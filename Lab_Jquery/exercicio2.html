@@ -15,6 +15,8 @@
     <link href="../font/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="../css/estilo.css"/>
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./js/exercicio2.js"></script>
   </head>
 
   <body>
@@ -45,47 +47,37 @@
     <!-- ###################################################################################### -->
 
     
-      <br><br>
-      <div class="page-section colord" id="home">
-        <div class="container">
-          <h1>Exercícios propostos</h1><br>
-        </div>
-      </div>
+    <br><br><br><br>
 
-      <section id="services">
+    <section id="services">
         <div class="container">
-            <div class="col-md-4 col-sm-6">
-                <h1>Lab Jquery1</h1><br>
-                <a href="../Lab_Jquery/exercicio1.html" class="btn">Cadastro de livros</a><br><br>
-                <a href="../Lab_Jquery/exercicio2.html" class="btn">Descubra a definição de alguns termos</a><br><br>
-                <br><br>
+            <div class="col-md-6 col-sm-6">
+                <h1>Dicionário Online</h1>
+                <h2><a href="#" id="link" class="btn"> Termos cadastrados</a> </h2>
+                <ul id="lista" class="lista"></ul>
+                <a href="../paginas/2tri.html" class="btn">Voltar</a>
             </div>
   
-            <div class="col-md-4 col-sm-6">
-              <h1>Lab Jquery2</h1><br>
-              <a href="../Lab_Jquery2/exercicio1.html" class="btn">Inversão de frases</a><br><br>
-              <a href="../Lab_Jquery2/exercicio2.html" class="btn">Marcação de vogais em negrito</a><br><br>
-              <a href="../Lab_Jquery2/exercicio3.html" class="btn">Número de ocorrências de uma palavra</a><br><br>
-              <a href="../Lab_Jquery2/exercicio4.html" class="btn">Palavra de maior ocorrência</a><br><br>
-              <a href="../Lab_Jquery2/exercicio5.html" class="btn">Substitução de palavras </a><br><br>
-              <a href="../Lab_Jquery2/exercicio6.html" class="btn">Dias de vida de uma pessoa</a><br><br>
-              <a href="../Lab_Jquery2/exercicio7.html" class="btn">Data por extenso</a><br><br>
-              <a href="../Lab_Jquery2/exercicio8.html" class="btn">Distância entre datas</a><br><br>
-              <a href="../Lab_Jquery2/exercicio9.html" class="btn">Verificação de senha</a><br><br>
+            <div class="col-md-6 col-sm-6">
+                <h1 id="termo"></h1>
+                <p id="descricao"></p>
+                <p id="data_criacao"></p>
+                <p id="autor"></p> 
             </div>
-
         </div>
+        
         <!--/.container--> 
       </section>
+    
     
 
     <!-- ######################################################################################### -->
 
     
-    <section class="copyright">
+    <section class="copyright_pouco_conteudo">
       <div class="container">
         <div class="row">
-          <div class="col-sm-12 text-center"> Copyright 2014 | All Rights Reserved -- Template by <a href="http://webThemez.com">WebThemez.com </a> / Modificado por Artur Alves de Oliveira.</div>
+          <div class="col-sm-12 text-center"> Copyright 2014 | All Rights Reserved -- Template by <a href="http://webThemez.com">WebThemez.com</a>/ Modificado por Artur Alves de Oliveira. </div>
         </div>
         <!-- / .row --> 
       </div>
