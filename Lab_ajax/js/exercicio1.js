@@ -1,6 +1,5 @@
 $(function(){
                 
-    let zip_code = $("#cep").val();
     let url = "https://rafaelescalfoni.github.io/desenv_web/filmes.json";
     $.get(url, function(filme)
     {
@@ -147,7 +146,6 @@ $(function(){
         {
             if(filme[i].id && filme[i].titulo && filme[i].resumo && filme[i].generos && filme[i].titulosSemelhantes && filme[i].elenco && filme[i].opinioes)
             {
-                // let dive1 = $("<div>");
                 $("#cs").append
                 (
                     $("<div>").append
