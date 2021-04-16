@@ -8,15 +8,15 @@ $(function(){
         let mult1 = 330 * solvente;
         if(mult1 > soluto)
         {
-            $("#resultado").text("Solução insaturada.");
+            $("#resultado").html("1L água - 330g açúcar<br>" + solvente + "L água - Xg açúcar<br> 1 . X = 330 . " + solvente + "<br>X = " + mult1 + "g<br> Era esperado " + mult1 + "g<br>Você forneceu " + soluto + "g,  então <b>solução insaturada.</b>");
         }
         if(mult1 < soluto)
         {
-            $("#resultado").text("Solução supersaturada.");
+            $("#resultado").html("1L água - 330g açúcar<br>" + solvente + "L água - Xg açúcar<br> 1 . X = 330 . " + solvente + "<br>X = " + mult1 + "g<br> Era esperado " + mult1 + "g<br>Você forneceu " + soluto + "g,  então <b>solução supersaturada.</b>");
         }
         if(mult1 == soluto)
         {
-            $("#resultado").text("Solução saturada.");
+            $("#resultado").html("1L água - 330g açúcar<br>" + solvente + "L água - Xg açúcar<br> 1 . X = 330 . " + solvente + "<br>X = " + mult1 + "g<br> Era esperado " + mult1 + "g<br>Você forneceu " + soluto + "g,  então <b>solução saturada.</b>");
         }
     })
 
