@@ -20,10 +20,11 @@ $(function(){
     function fibonacci (x) 
     {
         let array = new Array;
-        let a = 0;
+        array.push(0);
+        let a = 0; 
         let b = 1;
         let f = 1;
-        for (let i=0; i<x; i++) 
+        for (let i=0; i<x-1; i++) 
         {
             array.push(f);
             f = a + b;
