@@ -7,7 +7,19 @@ h1
 
 input
 {
-    width: 90%;
+    /* width: 90%; */
+}
+
+.resposta p
+{
+    color: gray;
+    font-weight: bold;
+}
+
+.resposta
+{
+    border: solid gray 1px;
+    padding: 5%;
 }
 
 #olho
